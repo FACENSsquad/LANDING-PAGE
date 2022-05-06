@@ -2,6 +2,16 @@
  * Roxy: Bootstrap template by GettTemplates.com
  * https://gettemplates.co/roxy
  */
+
+/* --------------- VARIAVEIS --------------- */
+:root{
+  -cor--back--principal1:#EBEBEB;
+  -cor--back--principal2:#a5a5a5;
+  -cor--back--principal3:#ADD8E6;
+}
+
+
+
 html, body {
   width: 100%;
   overflow-x: hidden; }
@@ -100,6 +110,7 @@ section {
   border-radius: 0;
   margin-bottom: 0;
   overflow: hidden;
+  overflow-y: hidden;
   min-height: 100vh; }
   @media (max-width: 767px) and (orientation: landscape) {
     .jumbotron {
@@ -116,11 +127,11 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #ff00cc;
+    background: #ADD8E6;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #333399, #ff00cc);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #ADD8E6, #49CCF6);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .jumbotron h1 {
     line-height: .9;
@@ -211,7 +222,7 @@ section {
   height: 400px;
   background: #8E2DE2;
   background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: linear-gradient(to right, #91a3af, #376889);
   transform-origin: 50% 150% 0;
   position: absolute;
   left: 0;
@@ -223,7 +234,7 @@ section {
   height: 400px;
   background: #8E2DE2;
   background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: linear-gradient(to right, #91a3af, #376889);
   transform-origin: 65% 100% 0;
   position: absolute;
   right: 0;
