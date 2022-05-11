@@ -14,7 +14,7 @@
 
 html, body {
   width: 100%;
-  overflow-x: hidden; }
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -110,7 +110,6 @@ section {
   border-radius: 0;
   margin-bottom: 0;
   overflow: hidden;
-  overflow-y: hidden;
   min-height: 100vh; }
   @media (max-width: 767px) and (orientation: landscape) {
     .jumbotron {
@@ -162,7 +161,7 @@ section {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #333399, #ff00cc);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #ADD8E6, #49CCF6);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .overlay.bg-white {
     color: #000; }
@@ -409,8 +408,8 @@ section {
   .feature-item:hover {
     transform: translateY(-13px); }
 
-.progress-bar {
-  background-color: #ff00cc; }
+/* .progress-bar {
+  background-color: #ff00cc; } */
 
 /*=====  End of FEATURES  ======*/
 /*=============================
